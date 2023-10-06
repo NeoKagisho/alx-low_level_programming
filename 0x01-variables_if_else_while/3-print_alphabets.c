@@ -14,14 +14,14 @@ c = 'a';
 d = 'A';
 while
 (c <= 'z') {
-putchar (c);
+putchar(c);
 c++;
 }
 while
 (d <= 'z') {
-putchar (d);
+putchar(d);
 d++;
 }
-putchar ('\n');
+putchar('\n');
 return (0);
 }
