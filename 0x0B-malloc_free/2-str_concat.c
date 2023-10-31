@@ -27,4 +27,4 @@ if (conct == NULL)
 return (NULL);
 i = ci = 0;
 while (s1[i] != '\0')
-{
+}
