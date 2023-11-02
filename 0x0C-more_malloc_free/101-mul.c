@@ -35,7 +35,9 @@ free(str);
 * @dest_index: highest index to start addition
 * Return: pointer to dest, or NULL on failure
 */
+
 char *mul(char n, char *num, int num_index, char *dest, int dest_index)
+
 {
 int j, k, mul, mulrem, add, addrem;
 
@@ -66,7 +68,9 @@ return (dest);
 * @av: pointer to arguments
 * Return: 0 if digits, 1 if not
 */
+
 int check_for_digits(char **av)
+
 {
 int i, j;
 
@@ -87,7 +91,9 @@ return (0);
 * @l: length of strinf
 * Return: void
 */
+
 void init(char *str, int l)
+
 {
 int i;
 
@@ -104,6 +110,7 @@ str[i] = '\0';
 */
 
 int main(int argc, char *argv[])
+
 {
 int l1, l2, ln, ti, i;
 char *a;
